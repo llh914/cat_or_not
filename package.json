@@ -1,0 +1,19 @@
+{
+  "name": "cat_or_not",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llh914/cat_or_not.git"
+  },
+  "author": "Linette Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llh914/cat_or_not/issues"
+  },
+  "homepage": "https://github.com/llh914/cat_or_not#readme"
+}
