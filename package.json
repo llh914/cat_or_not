@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:dev": "open ./.build/index.html && webpack -w",
+    "start": "webpack && open ./.build/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/llh914/cat_or_not/issues"
   },
-  "homepage": "https://github.com/llh914/cat_or_not#readme"
+  "homepage": "https://github.com/llh914/cat_or_not#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.8.1"
+  }
 }
